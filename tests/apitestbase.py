@@ -13,7 +13,7 @@ import test
 try:
     from ConfigParser import SafeConfigParser
 except ImportError:
-    from configparser import SafeConfigParser
+    from configparser import ConfigParser as SafeConfigParser
     
 from authorizenet import apicontractsv1, apicontrollersbase
 from authorizenet.utility import *
